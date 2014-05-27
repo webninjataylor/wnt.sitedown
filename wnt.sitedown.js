@@ -23,6 +23,7 @@
     currentDate.setHours(0,0,0,0);
 
     $.fn.sitedown = function(downDate){
+        // TODO:  Accept properties ... redirect page (optional), message (optional)
         if(currentDate > downDate){
             console.log('SITE SHOULD BE DOWN.');
         }
